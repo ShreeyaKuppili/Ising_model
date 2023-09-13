@@ -8,7 +8,7 @@
 #include <inttypes.h>
 #include <pthread.h>
 
-#include "/opt/redpitaya/include/rp.h"
+#include "rp.h"
 
 #define M_PI 3.14159265358979323846
 #define BUFFER_SIZE 16 * 1024
