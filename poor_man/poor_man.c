@@ -324,7 +324,7 @@ void single_iteration(float alpha, float beta, int s, int iteration)
         // buff_size cycles
         for (int j = SYNC_BUFFER_SIZE + i * buff_per_spin; j < (i + 1) * (buff_per_spin) + SYNC_BUFFER_SIZE; j++)
         {
-            x_out[j] = value;
+            x_out[j] = 2*value;
         }
     }
 
